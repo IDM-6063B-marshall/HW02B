@@ -84,9 +84,10 @@ function setup() {
     fill(113, 73, 85, 200);
     stroke(113, 73, 85,200);
     rect(200, 0, 100,windowHeight*2);
-    pop();
-//Vertical rectangles from botto right of window
-push()
-translate(windowWidth, windowHeight);
-// Vertical rectangle 6
+    pop()
+  //Circle
+    fill(253, 251, 212, 220);
+    stroke(253, 251, 212, 220); 
+    ellipse(950, 200, 400, 400, 100)
+
   }
